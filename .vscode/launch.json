@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WordsBuilder",
+            "request": "launch",
+            "mainClass": "school.mjc.stage0.loops.task2.WordsBuilder",
+            "projectName": "conditions"
+        },
+        {
+            "type": "java",
             "name": "Launch PrimeNumbers",
             "request": "launch",
             "mainClass": "school.mjc.stage0.loops.task2.PrimeNumbers",

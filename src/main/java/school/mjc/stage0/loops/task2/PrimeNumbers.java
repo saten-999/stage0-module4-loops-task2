@@ -4,13 +4,18 @@ public class PrimeNumbers {
     public void printPrimeNumbers(int printToInclusive) {
         int i=2;
         int j=2;
-        boolean prime=false;
+        boolean prime=true;
 
-        while(i <= printToInclusive){
+        while(i < printToInclusive){
+            j=2;
             while(j<= i/2){
+                
                 if(i%j==0){
+                 
                     prime =false;
                     break;       
+                }else{
+                    prime =true;
                 }
                 j++;
             }
